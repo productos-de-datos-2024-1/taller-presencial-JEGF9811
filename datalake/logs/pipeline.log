@@ -1,0 +1,13 @@
+2024-03-23 09:20:05,494:INFO:Starting ETL process
+2024-03-23 09:20:05,494:INFO:Starting data extraction
+2024-03-23 09:20:05,523:INFO:Data extraction completed
+2024-03-23 09:20:05,524:INFO:Starting data transformation
+2024-03-23 09:20:05,529:INFO:Data transformation completed
+2024-03-23 09:20:05,529:INFO:Starting data loading
+2024-03-23 09:20:05,576:INFO:Data loading completed
+2024-03-23 09:20:05,576:INFO:ETL process completed
+2024-03-23 09:20:05,576:INFO:Starting file moving
+2024-03-23 09:20:05,588:INFO:File moving completed
+2024-03-23 09:20:05,588:INFO:Starting downsampling
+2024-03-23 09:20:05,674:INFO:Train file created
+2024-03-23 09:20:05,680:INFO:Test file created
