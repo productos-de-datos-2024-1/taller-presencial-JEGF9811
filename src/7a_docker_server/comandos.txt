@@ -1,0 +1,12 @@
+docker build --tag=jdvelasq/api-server:0.1 .
+
+Correr docker build --tag=jegf9811/api-server:0.1 . en 7a server
+y luego docker build --tag=jegf9811/api-client:0.1 . en 7b client 
+y luego en la raiz docker run --network=mynetwork --rm -it --name=api-client -p 5002:5000 -v "$PWD"/datalake:/datalake jegf9811/api-client:0.1
+
+comando para ejecutar desde poweshell
+
+docker run --network=mynetwork --rm -it --name=api-client -p 5002:5000 -v "${PWD}/datalake:/datalake" jdvelasq/api-client:0.1
+comando para ejecutar desde CMD/
+docker run --network=mynetwork --rm -it --name=api-server -p 5001:5000 -v "%cd%/datalake:/datalake" jegf9811/api-client:0.1
+docker run --network=mynetwork --rm -it --name=api-client -p 5002:5000 -v "%cd%/datalake:/datalake" jegf9811/api-client:0.1

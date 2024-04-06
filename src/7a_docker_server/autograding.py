@@ -9,4 +9,4 @@ assert os.path.exists("src/7a_docker_server/Dockerfile")
 
 
 # test run
-assert os.path.exists("datalake/logs/docker_api_server.log")
+assert os.path.exists("datalake/logs/api_server.log")

@@ -10,4 +10,4 @@ assert os.path.exists("src/7b_docker_client/templates/index.html")
 
 
 # test run
-assert os.path.exists("datalake/logs/docker_api_client.log")
+assert os.path.exists("datalake/logs/api_client.log")
